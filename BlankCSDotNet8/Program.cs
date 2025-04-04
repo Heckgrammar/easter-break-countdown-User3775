@@ -11,6 +11,7 @@
                 TimeSpan timeleft = target - rightnow;
                 Console.WriteLine(timeleft);
                 Thread.Sleep(1000);
+                Console.Clear();
             }
         }
     }
